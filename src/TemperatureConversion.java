@@ -15,7 +15,7 @@ public class TemperatureConversion {
         // This outputs the question prompt
         System.out.println("Type in a temperature in Farenheit");
         // This scans for the users input
-        int farenheitNum = sc.nextInt();
+        double farenheitNum = sc.nextInt();
         // This converts the users input into Kelvin
         double kelvinNum = ((farenheitNum - 32) * (5.0 / 9)) + 273.15;
         // This converts the users input into Celsius
@@ -24,10 +24,4 @@ public class TemperatureConversion {
         // This outputs the users input after it's been converted into Celsius and Kelvin
         System.out.println("The temperature is: " + celsiusNum + " degrees Celsius, and: " + kelvinNum + " degrees Kelvin.");
     }
-
-    public void printHam() {
-        System.out.println("Ham");
-    }
-
-
 }
