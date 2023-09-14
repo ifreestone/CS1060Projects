@@ -13,27 +13,27 @@ public class GradeCalculator {
         //Then goes through all the grade ranges and sets the string equal to the appropriate letter grade
         if (grade < 0) {
             System.out.println("How'd you manage that? (ERROR)");
-        } else if (grade <= 60) {
+        } else if (grade < 60) {
             letterGrade = "F";
-        } else if (grade <= 67) {
+        } else if (grade < 67) {
             letterGrade = "D";
-        } else if (grade <= 69) {
+        } else if (grade < 69) {
             letterGrade = "D+";
-        } else if (grade <= 72) {
+        } else if (grade < 72) {
             letterGrade = "C-";
-        } else if (grade <= 77) {
+        } else if (grade < 77) {
             letterGrade = "C";
-        } else if (grade <= 79) {
+        } else if (grade < 79) {
             letterGrade = "C+";
-        } else if (grade <= 82) {
+        } else if (grade < 82) {
             letterGrade = "B-";
-        } else if (grade <= 87) {
+        } else if (grade < 87) {
             letterGrade = "B";
-        } else if (grade <= 89) {
+        } else if (grade < 89) {
             letterGrade = "B+";
-        } else if (grade <= 92) {
+        } else if (grade < 92) {
             letterGrade = "A-";
-        } else if (grade > 92) {
+        } else if (grade >= 92) {
             letterGrade = "A";
         }
 
